@@ -23,7 +23,9 @@ django-admin startproject model_project</br>
 如果不出意外的话,项目启动之后,你访问http://localhost:8000应该是不会报错的</br>
 
 ## app
-如何去理解django的app呢？？打个比方,django项目就是一个手机,而app则好比手机中的各个应用软件一个django可以添加多个app</br>
+如何去理解django的app呢？？</br>
+打个比方,django项目就是一个手机,而app则好比手机中的各个应用软件</br>
+一个django可以添加多个app</br>
 也就是说,一个blog的后台和一个购物网站的后台可以是放在同一个django项目下的两个app</br>
 当然你也可以把它们放在同一个app中,但我想这并不利于你的维护工作</br>
 
@@ -31,7 +33,7 @@ django-admin startproject model_project</br>
 在项目目录下,django-admin startapp modelapp</br>
 然后你可以在项目目录下看到一个名字为modeleapp的文件夹生成</br>
 新建app之后,如果要让它在你的项目中运行,那么就必须到model_project目录下的settings.py文件中的INSTALLED_APPS将它添加进去</br>
-具体可以参考settings.py文件,内容已做注释</br>
+具体可以参考settings.py文件</br>
 
 # 连接和配置数据库
 当然,作为一个后台框架,django有自带的本地数据库</br>
