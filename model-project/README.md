@@ -20,6 +20,7 @@ django-admin startproject model_project</br>
 # 项目启动和django的app
 ## 项目启动
 进入项目文件下在命令行中输入 python manage.py runserver</br>
+如果不出意外的话,项目启动之后,你访问http://localhost:8000应该是不会报错的</br>
 
 ## app
 如何去理解django的app呢？？打个比方,django项目就是一个手机,而app则好比手机中的各个应用软件一个django可以添加多个app</br>
