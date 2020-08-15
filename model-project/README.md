@@ -20,7 +20,7 @@ django-admin startproject model_project</br>
 # 项目启动和django的app
 ## 项目启动
 进入项目文件下在命令行中输入 python manage.py runserver</br>
-如果不出意外的话,项目启动之后,你访问http://localhost:8000应该是不会报错的</br>
+如果不出意外的话,项目启动之后,你访问'http://localhost:8000'应该是不会报错的</br>
 
 ## app
 如何去理解django的app呢？？</br>
@@ -58,5 +58,5 @@ OK,作为一个后台框架,基本除了接口还是接口</br>
 pip install djangorestframework</br>
 依赖安装之后,我们需要在settings.py文件中将它添加到INSTALLED_APP中</br>
 对于restframework的使用,模板中已经有一个实例</br>
-只需要在运行项目之后访问http://localhost:8000/test/get_all_test</br>
+只需要在运行项目之后访问'http://localhost:8000/test/get_all_test'</br>
 当然,对于具体的项目代码撰写,后续我会陆续更新,但现在,你只需要考虑如何能让它运行成功就可以了</br>
