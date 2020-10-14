@@ -5,7 +5,7 @@ Vue.use(Router)
 
 const routers = [
   {
-    path: '/',
+    path: '',
     component: () => import('./components/HelloWorld.vue')
   }
 ]
