@@ -16,8 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from pro_model import urls as model_urls
+from modelproject import api as api
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('model/', include(model_urls)),
 ]
+
+apipatterns = [
+    path('upload_dir_memory', api.upload_dir_memory)
+]
+
+urlpatterns += apipatterns

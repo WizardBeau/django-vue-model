@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'pro_model',
+    'db_manage'
 ]
 # 一般来说Csrf都会注释或者删除掉
 MIDDLEWARE = [
@@ -80,6 +81,7 @@ django可以配置多个数据库，例如redis,Postgre等等。
 模板中主要展示redis、mysql和postgre
 其余自行百度
 '''
+'''
 # mysql数据库配置
 DATABASES = {
     'default': {
@@ -91,7 +93,7 @@ DATABASES = {
         'NAME': 'mysql',
     }
 }
-
+'''
 '''
 # redis数据库配置
 CACHES = {
